@@ -1,0 +1,63 @@
+/* Right-hand navigation panel */
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #36454F;
+  padding: 60px 40px;
+  overflow: hidden;
+}
+
+.nav-content {
+  max-width: 750px;
+}
+
+.nav-title {
+  margin: 0 0 16px 0;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #f8fafc; 
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.nav-subtitle {
+  margin: 0 0 32px 0;
+  font-size: 1.25rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.nav-btn:hover,
+.nav-btn:focus-visible {
+  transform: translateY(-2px);
+}
+
+.btn {
+  background-color: #947726;
+  color: #f8fafc;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background-color: #8B008B;
+}

@@ -1,0 +1,43 @@
+/* Two-column landing: intro left, navigation right */
+.landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+}
+
+.landing-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 60px 40px 60px 8vw;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro-name {
+  margin: 0;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.intro-tagline {
+  margin: 0;
+  max-width: 34ch;
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+/* Stack on narrow screens: intro on top, navigation below */
+@media (max-width: 800px) {
+  .landing {
+    grid-template-columns: 1fr;
+  }
+  .landing-intro {
+    padding: 40px 24px;
+  }
+}
