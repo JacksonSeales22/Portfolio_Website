@@ -1,0 +1,140 @@
+.blog-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 24px 80px;
+  text-align: left;
+}
+
+.blog-intro {
+  margin-bottom: 48px;
+}
+
+.blog-intro h1 {
+  margin: 0px 0 50px 0;
+}
+
+.blog-intro p {
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.featured-post {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--purple);
+  border-radius: 10px;
+  padding: 36px;
+  margin-bottom: 56px;
+}
+
+.post-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  color: var(--purple);
+  background: var(--purple-bg);
+  border-radius: 4px;
+  padding: 3px 9px;
+  margin-bottom: 16px;
+}
+
+.featured-post h2 {
+  margin: 0 0 8px;
+  font-size: 1.6rem;
+  color: var(--text-h);
+}
+
+.post-date,
+.archive-date {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--gold);
+}
+
+.post-excerpt {
+  margin: 16px 0 24px;
+  line-height: 1.6;
+}
+
+.btn-read {
+  display: inline-flex;
+  font-size: 0.9rem;
+  color: var(--purple);
+  text-decoration: none;
+  border-bottom: 1px solid var(--purple-border);
+  padding-bottom: 2px;
+  transition: border-color 0.2s;
+}
+
+.btn-read:hover {
+  border-color: var(--purple);
+}
+
+.archive-heading {
+  color: var(--text-h);
+  font-weight: 500;
+  margin: 0 0 20px;
+  font-size: 1rem;
+}
+
+.archive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--border);
+}
+
+.archive-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.archive-item a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 18px 4px;
+  text-decoration: none;
+}
+
+.archive-title {
+  color: var(--text);
+  transition: color 0.2s;
+}
+
+.archive-item a:hover .archive-title {
+  color: var(--purple);
+}
+
+.archive-date {
+  flex-shrink: 0;
+}
+
+.btn-more {
+  display: block;
+  margin: 28px auto 0;
+  font-size: 0.85rem;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.btn-more:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+@media (max-width: 640px) {
+  .featured-post {
+    padding: 24px 20px;
+  }
+
+  .archive-item a {
+    flex-direction: column;
+    gap: 4px;
+  }
+}

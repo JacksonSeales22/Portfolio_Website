@@ -14,11 +14,6 @@
   padding: 60px 40px 60px 8vw;
 }
 
-.hero-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .intro-name {
   margin: 0;
   font-size: clamp(2.25rem, 5vw, 3.5rem);
