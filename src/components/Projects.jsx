@@ -31,19 +31,31 @@ const projects = [
     title: 'Active Interview Service - Legacy Code',
     tagline: 'Modifying \'legacy code\' with Claude to evaluate effectiveness.',
     tech: ['Claude', 'Git', 'APIs', 'Workflows', 'Pipelines'],
-    description: 'As a team project in a graduate course we were given an existing project named AIS (Active Interview Service), which helped evaluate user\'s resume and give mock interviews. Given 16 main user stories, we divided the stories into GitHub issues. Using exclusively Claude Code, we attempted to implement features such as bias guardrails, OAuth, Interviewer and Candidate accounts, etc. By logging our results, we aimed to evaluate the effectiveness of an AI Agent in legacy code.',
+    description: 'As a graduate course project, a team and I were given an existing project named AIS (Active Interview Service), which helped evaluate user\'s resume and give mock interviews. Given 16 main user stories, we divided the stories into GitHub issues. Using exclusively Claude Code, we attempted to implement features such as bias guardrails, OAuth, Interviewer and Candidate accounts, etc. By logging our results, we aimed to evaluate the effectiveness of an AI Agent in legacy code.',
     demo: 'pdf', // 'wasm' | 'link' | 'none'
     pdfUrl: '/projects/legacy-code-claude/claude-research.pdf',
     repoUrl: 'https://github.com/UCCS-CS4300-5300/Fall-25-CS-5300',
   },
-    {
+  {
+    id: 'car-shop',
+    title: '1-Stop Car Shop',
+    tagline: 'A consolidated site for all your car-shopping needs!',
+    tech: ['Claude', 'Git', 'APIs', 'Workflows', 'Pipelines'],
+    description: 'This free software combines “all present market listings” (simulated data) for new and used cars onto one website (by means of a large, constantly updating database of cars) with recently sold car prices included (if applicable) and provides a way to have your car’s price estimated instantly (with the help of MarketCheck’s Price Predictor API). This web service was created from scratch mainly as a team-based class project for CS3300 at the University of Colorado Colorado Springs by Computer Science students John Camargo, Jackson Seales, Kylie Sanchez, and Lucas Estevez',
+    demo: 'gallery', // 'wasm' | 'link' | 'none'
+    images: [{src: '/src/assets/buypage.png', alt: 'Buy Page', caption: 'Lists market data for vehicles. Sortable by many factors and able to be saved for registered users.'},
+      {src: '/src/assets/price_estimator.png', alt: 'Price Estimator', caption: 'Using MarketCheck API to estimate the value of a given vehicle.'},
+      {src: '/src/assets/savedcars.png', alt: 'Saved Cars', caption: 'A users saved vehicles.'}],
+    repoUrl: 'https://github.com/LucasJEstevez/CS3300-Semester-Project',
+  },
+  {
     id: 'react-site',
-    title: 'React Website w/AWS',
-    tagline: '',
+    title: 'React Website w/AWS (This!)',
+    tagline: 'WIP',
     tech: ['Claude', 'Git', 'APIs', 'Workflows', 'Pipelines'],
     description: '',
     demo: 'gallery', // 'wasm' | 'link' | 'none'
-    images: [{src: '/path', alt: '', caption: ''},],
+    images: [{src: '/src/assets/aws_portfolio_site_architecture.png', alt: '', caption: ''},],
     repoUrl: 'https://github.com/JacksonSeales22/Portfolio_Website',
   },
 ]

@@ -12,7 +12,7 @@ function App() {
         <section id="intro" className="landing-intro">
           <img src={meImg} className="me-img" width="276" height="334" alt="" />
           <h1 className="intro-name">Jackson Seales</h1>
-          <p className="intro-tagline">A bit about me.</p>
+          <p className="intro-tagline">I am a fresh CS Graduate, aspiring to a career in Software Engineering or Cybersecurity. I am continuing to learn every day by gathering knowledge for certifications, creating personal projects, and even learning Korean. Thanks for visiting!</p>
         </section>
         <Navigation />
       </main>

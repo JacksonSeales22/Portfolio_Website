@@ -138,3 +138,32 @@
     gap: 4px;
   }
 }
+
+/* Blog post body (rendered markdown) */
+.post-body p {
+  line-height: 1.7;
+  margin: 0 0 1.25rem;
+}
+
+.post-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 6px;
+}
+
+.post-body h2,
+.post-body h3 {
+  margin: 2rem 0 0.75rem;
+}
+
+.post-body pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.post-body code {
+  font-size: 0.9em;
+}

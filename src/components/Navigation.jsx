@@ -3,8 +3,8 @@ import './Navigation.css';
 
 const navigationLinks = [
   { label: 'Projects', to: '/projects' },
-  { label: 'Blog', to: '/blog' },
-  { label: 'Notes', to: '/notes' },
+  { label: 'Learning Log (WIP)', to: '/notes' },
+  { label: 'Blog', to: '/blog'}
 ]
 
 export default function Navigation()

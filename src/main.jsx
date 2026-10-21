@@ -5,6 +5,7 @@ import './index.css'
 import App from './App.jsx'
 import Projects from './components/Projects.jsx'
 import Blog from './components/Blog.jsx'
+import BlogPost from './components/BlogPost.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Routes>
     </BrowserRouter>
     {/*<App /> No longer needed after implementing Routes / react-router-dom*/}
