@@ -43,9 +43,9 @@ const projects = [
     tech: ['Claude', 'Git', 'APIs', 'Workflows', 'Pipelines'],
     description: 'This free software combines “all present market listings” (simulated data) for new and used cars onto one website (by means of a large, constantly updating database of cars) with recently sold car prices included (if applicable) and provides a way to have your car’s price estimated instantly (with the help of MarketCheck’s Price Predictor API). This web service was created from scratch mainly as a team-based class project for CS3300 at the University of Colorado Colorado Springs by Computer Science students John Camargo, Jackson Seales, Kylie Sanchez, and Lucas Estevez',
     demo: 'gallery', // 'wasm' | 'link' | 'none'
-    images: [{src: '/src/assets/buypage.png', alt: 'Buy Page', caption: 'Lists market data for vehicles. Sortable by many factors and able to be saved for registered users.'},
-      {src: '/src/assets/price_estimator.png', alt: 'Price Estimator', caption: 'Using MarketCheck API to estimate the value of a given vehicle.'},
-      {src: '/src/assets/savedcars.png', alt: 'Saved Cars', caption: 'A users saved vehicles.'}],
+    images: [{src: '/projects/car-shop/buypage.png', alt: 'Buy Page', caption: 'Lists market data for vehicles. Sortable by many factors and able to be saved for registered users.'},
+      {src: '/projects/car-shop/price_estimator.png', alt: 'Price Estimator', caption: 'Using MarketCheck API to estimate the value of a given vehicle.'},
+      {src: '/projects/car-shop/savedcars.png', alt: 'Saved Cars', caption: 'A users saved vehicles.'}],
     repoUrl: 'https://github.com/LucasJEstevez/CS3300-Semester-Project',
   },
   {
@@ -55,7 +55,7 @@ const projects = [
     tech: ['Claude', 'Git', 'APIs', 'Workflows', 'Pipelines'],
     description: '',
     demo: 'gallery', // 'wasm' | 'link' | 'none'
-    images: [{src: '/src/assets/aws_portfolio_site_architecture.png', alt: '', caption: ''},],
+    images: [{src: '/projects/react-site/aws_portfolio_site_architecture.png', alt: '', caption: ''},],
     repoUrl: 'https://github.com/JacksonSeales22/Portfolio_Website',
   },
 ]
