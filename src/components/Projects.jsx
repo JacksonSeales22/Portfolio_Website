@@ -1,6 +1,7 @@
-import { useRef, useState } from 'react'
+import { useState } from 'react'
 import Header from '../components/Header'
 import './Projects.css'
+import TetrisDemo from './TetrisDemo'
 
 // List of projects, added as necessary.
 // To add a new project, use the following skeleton:
@@ -59,33 +60,6 @@ const projects = [
     repoUrl: 'https://github.com/JacksonSeales22/Portfolio_Website',
   },
 ]
-
-function TetrisDemo() {
-  const [loaded, setLoaded] = useState(false)
-  const frameRef = useRef(null)
-
-  return (
-    <div className="demo-frame">
-      {!loaded && (
-        <div className="demo-placeholder">
-          <p>Arrow keys to move, Z to rotate, X to hard drop.</p>
-          <button className="btn btn-purple" onClick={() => setLoaded(true)}>
-            Load game
-          </button>
-        </div>
-      )}
-      {loaded && (
-        <iframe
-          ref={frameRef}
-          className="demo-iframe"
-          src="/games/tetris/tetris.html"
-          title="Tetris"
-          onLoad={() => frameRef.current?.contentWindow?.focus()}
-        />
-      )}
-    </div>
-  )
-}
 
 // PDF preview. Loads only when asked
 // "Open PDF" link that opens the file in a new tab

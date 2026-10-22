@@ -3,15 +3,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 80vh;
+  width: 100%;
 }
 
 .landing-intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 16px;
-  padding: 60px 40px 60px 8vw;
+  padding: 60px 40px 60px 1vw;
 }
 
 .intro-name {
@@ -22,7 +23,7 @@
 
 .intro-tagline {
   margin: 0;
-  max-width: 34ch;
+  max-width: 40ch;
   font-size: 1.25rem;
   line-height: 1.6;
 }

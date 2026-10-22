@@ -1,0 +1,27 @@
+.profile-row {
+  display: flex;
+  align-items: flex-start;  /* top-align; use center to vertically center */
+  gap: 1rem;                /* space between photo and badges */
+}
+
+.badge-column {
+  display: flex;
+  flex-direction: column;   /* stacks the badges vertically */
+  gap: 0.5rem;
+}
+
+.badge {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;      /* keeps badge proportions without cropping */
+}
+.me-img {
+  width: 276px;
+  height: 334px;
+  object-fit: cover;   /* crops to fill the box instead of squishing */
+}
+.badge {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
